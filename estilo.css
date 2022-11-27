@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#padding {
+    background-color: red;
+    border: 5px double black;
+
+    /* padding-top: 20px;
+    padding-right:10px;
+    padding-bottom:30px;
+    padding-left:5px; */
+
+    /* padding: 20px 10px 30px 5px;
+    padding: 20px 10px;
+    padding: 20x 10px 30px; */
+
+    padding-block: 20px;
+    padding-inline: 30px;
+}
+
+.caixas{
+    width: 150px;
+    height: 150px;
+}
+
+ #interna {
+     background-color: blue;
+     width: 50px;
+     height: 50px;  
+}
+
+.margin{
+    /* margin-top: 10px;
+    margin-right:15px;
+    margin-bottom:20px;
+    margin-left:25px;
+
+    margin: 10px 15px 20px 25px;
+    margin: 10px 20px
+    margin: 10px 30px 20px; */
+
+    margin-block: 20px;
+    margin-inline: 30px;
+
+}
